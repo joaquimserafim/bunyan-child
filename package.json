@@ -1,6 +1,6 @@
 {
   "name": "bunyan-child",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "create a primary instance of a bunyan logger and many `child` instances from the primary and with support to send the logs to logstash",
   "main": "index.js",
   "files": [

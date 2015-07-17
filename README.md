@@ -12,18 +12,22 @@ create a primary instance of a bunyan logger and many `child` instances from the
 var logger = require('bunyan-child')
 ```
 
+*   **options** {}, configure bunyan options, non required
+*   **logstash URI** string, address and port for logstash and enables the use of logstash, non required
 
 ## Usage
 
 ```js
 
-var log = logger('logstash://127.0.0.1:9000')
+var log = logger({name: 'MYLOG'}, 'logstash://127.0.0.1:9000')
 
 log.info('hello world')
 
 // in a sub-component of your application
 
 var subLog = log.child({type: 'some_op'})
+
+subLog.info('hello world from the sub-component')
 
 ```
 
