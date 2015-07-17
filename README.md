@@ -1,8 +1,8 @@
 # bunyan-child
 
-create a primary instance of a bunyan logger and many `child` instances from the primary and with support to send the logs to logstash
+creates a primary instance of a bunyan logger and many `child` instances from the primary and with support to send the logs to logstash
 
-<a href="https://nodei.co/npm/bunyan-childr/"><img src="https://nodei.co/npm/bunyan-child.png?downloads=true"></a>
+<a href="https://nodei.co/npm/bunyan-child/"><img src="https://nodei.co/npm/bunyan-child.png?downloads=true"></a>
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](https://travis-ci.org/joaquimserafim/bunyan-child)![Code Coverage 100%](https://img.shields.io/badge/code%20coverage-100%25-green.svg?style=flat-square)[![ISC License](https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square)](https://github.com/joaquimserafim/bunyan-child/blob/master/LICENSE)
 
